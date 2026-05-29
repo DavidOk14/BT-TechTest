@@ -1,0 +1,12 @@
+# Visual Studio
+.vs/
+*.ipch
+*.VC.db
+*.VC.opendb
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+
+# Vulkan / binaries
+*.pdb

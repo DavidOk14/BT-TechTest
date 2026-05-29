@@ -1,0 +1,8 @@
+﻿  gameLoop.cpp
+C:\Users\Realc14\Documents\Git\BT-TechTest\Core\gameLoop.cpp(25,26): warning C4804: '>': unsafe use of type 'bool' in operation
+  Init.cpp
+  main.cpp
+  lve_pipeline.cpp
+  VulkanRenderer.cpp
+  Generating Code...
+  BT-TechTest.vcxproj -> C:\Users\Realc14\Documents\Git\BT-TechTest\x64\Debug\BT-TechTest.exe

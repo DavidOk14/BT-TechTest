@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Core\Init.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\gameLoop.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Vulkan\VulkanRenderer.cpp" />
+    <ClCompile Include="Vulkan\lve_pipeline.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{222919d9-9376-4c14-8219-b9eb43c277cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging\Error_Logs">
+      <UniqueIdentifier>{f8b60381-1b93-4b87-8f23-beff54a105a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging\Normal_Logs">
+      <UniqueIdentifier>{1e9a9c96-9a5e-4d5a-be22-7caa19f23b13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{8c886369-6b95-428d-819b-dbb397b57dd1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\Init.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\gameLoop.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Vulkan\VulkanRenderer.h" />
+    <ClInclude Include="Vulkan\lve_pipeline.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="compileShaders.bat" />
+  </ItemGroup>
+</Project>
